@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Imprima');
+
+*{
+  margin:0;
+  font-family: 'Imprima', sans-serif;
+  padding:0;
+}
+
+body {
+  background:#02012E;
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*q9B1SaxnGnmbP8yiIf_jUg.jpeg");;
+}
+
+#portada {
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*q9B1SaxnGnmbP8yiIf_jUg.jpeg");
+  background-size: 1368px 724px;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+  transition: .8s;
+  background-repeat: no-repeat;
+}
+
+#portada:hover{
+  font-size:25px;
+}
+
+#explicacion {
+  background: white;
+  width:500px;
+  margin:auto;
+  text-align:justify;
+  padding:40px;
+  transition:.6s;
+}
+
+#explicacion:hover {
+  color:#0B094A
+}
+
+
